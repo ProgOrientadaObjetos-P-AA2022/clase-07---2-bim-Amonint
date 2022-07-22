@@ -48,7 +48,7 @@ public class CiudadTest {
         instance.establecerNombre(nom);
         Field field = instance.getClass().getDeclaredField("nombre");
         field.setAccessible(true);
-        assertEquals(field.get(instance), "Loja");
+        assertEquals(field.get(instance), "loja");
     }
     
     @Test
